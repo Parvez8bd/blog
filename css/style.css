@@ -1,0 +1,325 @@
+.menu {
+  background: #2196f3;
+}
+.menu h1 {
+  color: #fff;
+  font-family: "Reggae One", cursive;
+  font-weight: 900;
+  padding: 10px 0;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 25px;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 15px;
+  text-transform: uppercase;
+  font-size: 18px;
+  transition: 0.5s;
+  padding-bottom: 3px;
+  border-bottom: 3px solid transparent;
+}
+.menu ul li a:hover {
+  border-bottom: 3px solid #fff;
+}
+
+.hero {
+  background-image: url("../images/top-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 89vh;
+  text-align: center;
+  padding-top: 15%;
+}
+.hero .hero-content h2 {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+.hero .hero-content h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 70px;
+}
+.hero .hero-content ul {
+  padding: 0%;
+}
+.hero .hero-content ul li {
+  display: inline-block;
+  padding: 28px 8px;
+}
+.hero .hero-content ul li a ion-icon {
+  font-size: 40px;
+}
+.hero .hero-content ul li:nth-of-type(1) a {
+  color: #3b5998;
+}
+.hero .hero-content ul li:nth-of-type(2) a {
+  color: #00acee;
+}
+.hero .hero-content ul li:nth-of-type(3) a {
+  color: #FF0000;
+}
+.hero .hero-content ul li:nth-of-type(4) a {
+  color: #0e76a8;
+}
+
+.about {
+  text-align: center;
+  padding-top: 40px;
+}
+.about .about-content {
+  padding-bottom: 40px;
+}
+.about .about-content h2 {
+  padding-bottom: 50px;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: #2196f3;
+}
+.about .about-content img {
+  border-bottom: 10px solid #7792BC;
+  border-right: 10px solid #7792BC;
+  background-size: cover;
+}
+.about .about-content h3 {
+  text-align: left;
+  font-size: 40px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+.about .about-content p {
+  text-align: left;
+  padding: 20px 0px;
+}
+.about .about-content h5 {
+  text-align: left;
+  font-size: 25px;
+}
+.about .about-content .butn-click {
+  padding-top: 50px;
+}
+.about .about-content .butn-click a {
+  background: #2196f3;
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin: 80px 20px;
+  border: 2px solid #7792BC;
+  border-radius: 34px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.about .about-content .butn-click a:hover {
+  background: #fff;
+  color: #2196f3;
+  border: 2px solid #7792BC;
+}
+
+.services {
+  text-align: center;
+  background-color: #2196f3;
+  color: #fff;
+  padding-top: 40px;
+}
+.services h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  padding: 20px 0;
+}
+.services h4 {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 25px;
+  padding-bottom: 40px;
+}
+.services ion-icon {
+  background: #fff;
+  color: #7792BC;
+  height: 80px;
+  width: 80px;
+  border-radius: 120px;
+  font-size: 30px;
+  padding: 20px 20px;
+  line-height: 80px;
+}
+.services h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  padding: 10px 0;
+}
+.services p {
+  padding-bottom: 50px;
+}
+
+.portfolio {
+  background: #fff;
+  color: #2196f3;
+  padding-top: 40px;
+}
+.portfolio .portfolio-content {
+  text-align: center;
+}
+.portfolio .portfolio-content h2 {
+  font-family: "Noto Serif", serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 40px;
+  padding-bottom: 70px;
+  padding-top: 40px;
+}
+.portfolio .portfolio-content .portfolio-item {
+  position: relative;
+  margin: 30px 20px;
+}
+.portfolio .portfolio-content .portfolio-item img {
+  width: 278px;
+  height: 248px;
+}
+.portfolio .portfolio-content .portfolio-item .portfolio-item-overly {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 278px;
+  height: 248px;
+  opacity: 0;
+  background: #2196f3;
+  transition: 0.3s;
+}
+.portfolio .portfolio-content .portfolio-item .portfolio-item-overly:hover {
+  opacity: 0.8;
+}
+.portfolio .portfolio-content .portfolio-item .portfolio-item-overly ion-icon {
+  color: #fff;
+  font-size: 80px;
+  position: absolute;
+  top: 36%;
+  left: 36%;
+  font-weight: 900;
+}
+.portfolio .portfolio-content h4 {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 25px;
+}
+.portfolio .portfolio-content .emty {
+  padding: 40px;
+  height: 20px;
+  width: 20px;
+  background: #fff;
+}
+
+.contact {
+  text-align: center;
+  background-color: #2196f3;
+  color: #fff;
+  padding-top: 40px;
+}
+.contact .contact-content h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  padding: 20px 0;
+}
+.contact .contact-content p {
+  font-family: "Noto Serif", serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+.contact .contact-content .info {
+  padding-bottom: 70px;
+}
+.contact .contact-content form input {
+  padding: 30px 0;
+  margin: 5px 0;
+  height: 20px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+}
+.contact .contact-content form textarea {
+  margin: 5px 0;
+  height: 200px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+}
+.contact .contact-content form .btn1 {
+  background: #7792BC;
+  margin-bottom: 70px;
+  padding: 0;
+  width: 160px;
+  height: 40px;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+}
+.contact .contact-content form .btn1:hover {
+  background: #fff;
+  color: #2196f3;
+}
+
+.footer .footer-content {
+  text-align: center;
+}
+.footer .footer-content p {
+  font-size: 15px;
+  color: #2196f3;
+  padding: 25px 0px;
+  display: inline-block;
+}
+.footer .footer-content ul {
+  padding: 0%;
+  margin: 0%;
+}
+.footer .footer-content ul li {
+  display: inline-block;
+  padding: 25px 8px;
+}
+.footer .footer-content ul li a ion-icon {
+  font-size: 30px;
+}
+.footer .footer-content ul li:nth-of-type(1) a {
+  color: #3b5998;
+}
+.footer .footer-content ul li:nth-of-type(2) a {
+  color: #00acee;
+}
+.footer .footer-content ul li:nth-of-type(4) a {
+  color: #0e76a8;
+}
+.footer .footer-content .last-item {
+  padding: 25px 10px;
+}
+.footer .footer-content .last-item a {
+  text-decoration: none;
+  color: #2196f3;
+  padding: 0px 10px;
+  display: inline-block;
+}
+.footer .footer-content .last-item a:hover {
+  border-bottom: 1px solid #2196f3;
+}
+
+/*# sourceMappingURL=style.css.map */

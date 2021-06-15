@@ -1,0 +1,61 @@
+.portfolio{
+    background: $light-color;
+    color: $primary-color;
+    padding-top: 40px;
+    .portfolio-content{
+        text-align: center;
+        h2{
+            
+            font-family: 'Noto Serif', serif;
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: 40px;
+            padding-bottom: 70px;
+            padding-top: 40px;
+        }
+        .portfolio-item{
+            position: relative;
+            margin: 30px 20px;
+            img{
+                width: 278px;
+                height: 248px;
+                
+            }
+            .portfolio-item-overly{
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 278px;
+                height: 248px;
+                opacity: 0;
+                background: $primary-color;
+                transition: 0.3s;
+                &:hover {
+                    opacity: 0.8;
+                }
+                ion-icon{
+                    color: $light-color;
+                    font-size: 80px;
+                    position: absolute;
+                    top: 36%;
+                    left: 36%;
+                    font-weight: 900;
+                }
+            }   
+        }
+        h4{
+            font-family: 'Noto Serif', serif;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 25px;
+        }
+        .emty{
+            padding: 40px;
+            height: 20px;
+            width: 20px;
+            background: $light-color;
+        }
+    }
+}

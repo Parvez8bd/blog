@@ -1,0 +1,46 @@
+.footer{
+    .footer-content{
+        text-align: center;
+        p{
+            font-size: 15px;
+            color: $primary-color;
+            padding: 25px 0px;
+            display: inline-block;
+        }
+        ul{
+            padding: 0%;
+            margin: 0%;
+            li{
+                display: inline-block;
+                padding: 25px 8px;
+                a{
+                    ion-icon{
+                        font-size: 30px;
+                    }
+                }
+                &:nth-of-type(1) a{
+                    color: #3b5998;
+                }
+                &:nth-of-type(2) a{
+                    color: #00acee;
+                }
+                &:nth-of-type(4) a{
+                    color:  #0e76a8;
+                }
+            }
+        }
+        .last-item{
+            padding: 25px 10px;
+            a{
+                text-decoration: none;
+                color: $primary-color;
+                padding: 0px 10px;
+                display: inline-block;
+                &:hover{
+                    border-bottom: 1px solid $primary-color;
+                }
+            }  
+        }
+        
+    }
+}

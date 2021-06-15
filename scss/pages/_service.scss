@@ -1,0 +1,38 @@
+.services{
+    text-align: center;
+    background-color: $primary-color;
+    color: $light-color;
+    padding-top: 40px;
+    h2{
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        padding: 20px 0;
+    }
+    h4{
+        font-family: 'Noto Serif', serif;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 25px;
+            padding-bottom: 40px;
+    }
+    ion-icon{
+        background: $light-color;
+        color: $secondary-color;
+        height: 80px;
+        width: 80px;
+        border-radius: 120px;
+        font-size: 30px;
+        padding: 20px 20px;
+        line-height: 80px;
+    }
+    h3{
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        font-size: 25px;
+        padding: 10px 0;  
+    }
+    p{
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,58 @@
+.contact{
+    text-align: center;
+    background-color: $primary-color;
+    color: $light-color;
+    padding-top: 40px;
+   .contact-content{
+       h2{
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        padding: 20px 0;
+       }
+       p{
+        font-family: 'Noto Serif', serif;
+        font-weight: 600;
+        font-style: italic;
+        font-size: 30px;
+        padding-bottom: 40px;
+       }
+       .info{
+           padding-bottom: 70px;
+       }
+       form{
+           
+           input{
+               padding: 30px 0;
+               margin: 5px 0;
+               height: 20px;
+               width: 300px;
+               border-radius: 5px;
+               border: none;
+            }
+           textarea{
+                margin: 5px 0;
+                height: 200px;
+                width: 300px;
+                border-radius: 5px;
+                border: none;
+            }
+            .btn1{
+                background: $secondary-color;
+                margin-bottom: 70px;
+                padding: 0;
+                width: 160px;
+                height: 40px; 
+                color: $light-color;
+                font-family: 'Lato', sans-serif;
+                font-size: 15px;
+                font-weight: 600;
+                border: none;
+                &:hover{
+                    background: $light-color;
+                    color: $primary-color;
+                }
+            }
+       }
+   } 
+}
