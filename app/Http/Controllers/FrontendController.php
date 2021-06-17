@@ -8,7 +8,9 @@ class FrontendController extends Controller {
     
     public function index() {
         $title = "Home";
-        $price = 320;
+        $menu = "home";
+
+        $price = 320 ." taka";
         $student = [
             [
                 "name" => "Nur mohammad",
@@ -31,13 +33,14 @@ class FrontendController extends Controller {
             
         ];
 
-        return view('Welcome', compact('title', 'student', 'price'));
+        return view('Welcome', compact('title', 'menu', 'student', 'price'));
     }
 
     public function about() {
         $title = "About";
+        $menu = "about";
 
-        return view('about', compact('title'));
+        return view('about', compact('title', 'menu'));
     }
 
 

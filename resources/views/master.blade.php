@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @include('partial.head')
+
     <title>@yield('title') | Blog</title>
 
-    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    @stack('style')
 </head>
 <body>
+    
+    @include('partial.nav', ["item" => $menu])
+
     @section('header')
         <h1>Master header area.</h1>
     @show
@@ -21,5 +23,6 @@
         <h1>Master footer area.</h1>
     @show
     
+    @stack('scripts')
 </body>
 </html>

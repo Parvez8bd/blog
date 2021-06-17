@@ -3,3 +3,7 @@ body {
     color: #fff;
 
 }
+
+nav > ul > li.active > a {
+    color: #fff;
+}

@@ -15,4 +15,4 @@ use App\Http\Controllers\FrontendController;
 */
 
 Route::get('/', [FrontendController::class, 'index']);
-Route::get('/about', [FrontendController::class, 'about']);
+Route::get('/about', [FrontendController::class, 'about'])->name('blog.about');

@@ -1,10 +1,18 @@
-@extends('master')
+@extends('master', ['menu' => $menu])
 
 @section('title', $title)
 
+@push('style')
+<style>
+    header {
+        background: red;
+    }
+</style>
+@endpush
+
 @section('header')
 <header>
-    <h1>This is header</h1>
+    <h1>This is header from home.</h1>
 </header>
 @endsection
 
